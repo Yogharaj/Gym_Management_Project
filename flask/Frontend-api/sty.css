@@ -1,0 +1,16 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .center1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  body {
+    background-image: url('C:\\Users\\Yogha\\OneDrive\\Documents\\Gym_Project\\Frontend-api\\Screenshot(204).jpg');
+    background-repeat: no-repeat;
+  }

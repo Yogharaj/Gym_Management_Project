@@ -1,0 +1,106 @@
+<html>
+<head>
+<title> Navigation bar</title>    
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+  <nav>
+    <ul class="topnav" id="dropdownclick">
+      <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#abiut">About</a></li>
+        <li><a href="#contat">Contact us</a></li>
+        <li class="topright"><a href="#signin">Sign in</a></li>
+        <li class="topright"><a href="#signup">Sign up</a></li>
+        <li class ="unicode"><a href="javascript:void(0)" onclick="dropdownmenu()">&#9776;</a></li>
+      </ul>
+    </nav>
+   
+<script>    
+    function  dropdownmenu()
+    {
+        var x=document.getElementById("dropdownclick");
+        if(x.className === "topnav")
+            {
+                x.className += " responsive";
+                /*change topnave to topnav.responsive*/
+   
+            }
+        else{
+            x.className="topnav";
+        }
+    }
+</script>
+   
+<div class="container" id="section1gra">
+    <div class="row">
+        <div class="col-6">
+           <div class="formmleft">
+                <h1 class="large">To help those in need</h1>
+                 <h1 class="large">and its a way to reach out to people</h1>
+           </div>
+            <form action="http://127.0.0.1:5000" method="post">
+        <div class="formmleft">
+          <h2>Name :</h2>
+          <input class="inputbox" type="text" name="Name">
+          <h2>Age :</h2>
+            <input class="inputbox" type="text">
+          <h2>Contact number :</h2>
+            <input class="inputbox" type="text">
+          <h2>Email :</h2>
+            <input class="inputbox" type="email" placeholder="abc@gmail.com">
+          <h2>To Donate :</h2>
+            <button><a href="donorhtml.html">click here</a></button>
+          <h2>Member:</h2>
+            <button><a href="memberlogin.html">click here</a></button>
+        </div>
+        <p><input type="Submit"></p>
+        </form>
+        </div>
+        <div class="col-6">
+           <div class="right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IdPPPgADR8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+                 
+    </div>
+</div><br><br>
+     <!--<div class="row">
+        <div class="col-12">
+          <button class="submit">SUBMIT</button>
+        </div>
+    </div>-->
+    <header>
+    <h1 class="sec2header">if you have any query!</h1>
+        <p class="para">        You can mail us at @food4everyone@gmail.com<p>
+        <p class="para">contact us: 9994174908</p>
+    </header>
+    <div class="conatiner">
+        <div class="row">
+        <div class="col-6">
+            <div class="box">
+                <div class="imagebottom">
+                    <img src="food.jfif">
+                </div><br>
+                <label>Nothing brings people together like food</label>
+                <br><br>
+            </div>
+            </div>
+            <div class="col-6">
+            <div class="box">
+                <div class="imagebottom">
+                    <img src="food2.jfif">
+                </div><br>
+                <label>Giving is not just about making a donation.<br>It is about making a difference</label>
+                <br>
+            </div>
+            </div>
+        </div>
+    </div>
+   
+    <p>
+   
+   
+    </p>
+</body>
+</html>

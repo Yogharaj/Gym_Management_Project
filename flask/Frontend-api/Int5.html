@@ -1,0 +1,16 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        {% for key,value in obj.items()%}
+            <p>{{key}}:{{value}}<p>
+        {% endfor %}
+        <form action=" http://localhost:5000/call" method="post">
+            <p><input type="Submit" value="Data Entry"></p>
+        </form>
+        <form action=" http://localhost:5000/call1/{{name1}}" method="post">
+            <p><input type="Submit" value="View Sessions"></p>
+        </form>
+    </body>
+</html>
